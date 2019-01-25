@@ -1,0 +1,15 @@
+.section {
+    background-color: #782F40;
+    color: white;
+}
+
+#logoHeader {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+#logoHeader2 {
+    height: 100px;
+    width: auto;
+    float: Right;
+}
