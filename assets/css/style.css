@@ -3,13 +3,67 @@
     color: white;
 }
 
-#logoHeader {
-    height: 100px;
-    width: auto;
-    float: left;
+#header {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
 }
-#logoHeader2 {
-    height: 100px;
-    width: auto;
-    float: Right;
+
+#about {
+    font-size: 17px;
+}
+
+input::placeholder {
+    color: white;
+    padding: 5px;
+}
+
+#passemail {
+    font-size: 15px;
+    color: white;
+}
+
+#password {
+    width: 50%;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#email {
+    width: 50%;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#login {
+    background-color: #CEB888;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 25px;
+    border-color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+}
+
+#register {
+    color: #CEB888;
+    cursor: pointer;
+}
+
+#modal1 {
+    background-color: #782F40;
+}
+
+@media only screen and (max-width: 770px){
+    #header {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #header {
+        font-size: 20px;
+    }
 }

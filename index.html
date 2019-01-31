@@ -19,10 +19,13 @@
     </div>
 
     <div class="section">
+      <div class="row container valign-wrapper">
+        <img class="col s2" id="logoHeader" src="assets/images/Florida_State_University_seal.svg.png"> 
+        <p class="center-align col s8" id="header">2019-2020 Women's Law Symposium Silent Auction</p>
+        <img class="col s2" id="logoHeader2" src="assets/images/FSULaw_Color copy.png">
+      </div>
       <div class="row container">
-       <h1 class="center-align"><img class="responsive-img" id="logoHeader" src="assets/images/Florida_State_University_seal.svg.png"> 2019-2020 Silent Auction <img class="responsive-img" id="logoHeader2" src="assets/images/FSULaw_Black copy.png"></h1>
-        <h2 class="header center-align">Women's Law Symposium</h2>
-        <p>WLS is dedicated to promoting the status of women in the legal community. WLS provides a forum for the discussion of issues concerning legal education and provides program to advance and assist students throughout their law school career, including networking with local attorneys and other leadership opportunities.  WLS also actively participates in charitable and voluntary causes in the community, as well as sponsors annual philanthropic events within the law school community.</p>
+        <p id="about">WLS is dedicated to promoting the status of women in the legal community. WLS provides a forum for the discussion of issues concerning legal education and provides program to advance and assist students throughout their law school career, including networking with local attorneys and other leadership opportunities.  WLS also actively participates in charitable and voluntary causes in the community, as well as sponsors annual philanthropic events within the law school community.</p>
       </div>
 
     </div>
@@ -30,10 +33,45 @@
       <div class="parallax"><img src="assets/images/fsuWLSPic.jpg"></div>
     </div>
 
-    <div class="section">
+    <div class="section loginCreate">
       <div class="row container">
-        <h2 class="header center-align">Login</h2>
-        <p></p>
+        <h2 class="header center-align">Sing In</h2>
+        <div class="center-align">
+          <input type="email" id="email" placeholder="Email">
+        </div>
+        <div  class="center-align">
+          <input type="password" id="password" placeholder="Password">
+        </div>
+        <div  class="center-align">
+          <button type="submit" id="login">Sign In</button>
+          <p>Don't have an account <a class="modal-trigger" href="#modal1" id="register">create one here</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h1>Create your Bidder Account</h1>
+        <div>
+          <input type="text" id="firstName" placeholder="First Name">
+        </div>
+        <div>
+          <input type="text" id="lastName" placeholder="Last Name">
+        </div>
+        <div>
+          <input type="tel" id="phone" placeholder="Phone Number 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required>
+        </div>
+        <div>
+          <input type="email" id="emailCreate" placeholder="Email">
+        </div>
+        <div>
+          <input type="password" id="passwordCreate" placeholder="Password">
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect btn-flat modalBtn">Lets Bid</a>
       </div>
     </div>
 
