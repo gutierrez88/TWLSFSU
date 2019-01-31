@@ -56,6 +56,14 @@ input::placeholder {
     background-color: #782F40;
 }
 
+.modal-content {
+    color: white;
+}
+
+.modal-footer {
+    background-color: #782F40;
+    color: white;
+}
 @media only screen and (max-width: 770px){
     #header {
         font-size: 25px;
