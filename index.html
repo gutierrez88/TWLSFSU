@@ -52,22 +52,19 @@
     <div id="modal1" class="modal">
       <div class="modal-content">
         <h1>Create your Bidder Account</h1>
-        <div>
-          <input type="text" id="firstName" placeholder="First Name">
-        </div>
-        <div>
-          <input type="text" id="lastName" placeholder="Last Name">
-        </div>
-        <div>
-          <input type="tel" id="phone" placeholder="Phone Number 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-          required>
-        </div>
-        <div>
-          <input type="email" id="emailCreate" placeholder="Email">
-        </div>
-        <div>
-          <input type="password" id="passwordCreate" placeholder="Password">
-        </div>
+        <form class="regBox">
+          <label for="firstName">First Name:</label><br>
+          <input type="text" id="firstName"><br>
+          <label for="lastName">Last Name:</label><br>
+          <input type="text" id="lastName"><br>
+          <label for="phone">Phone Number (format 123-456-7890):</label><br>
+          <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required><br>
+          <label for="emailCreate">Email:</label><br>
+          <input type="email" id="emailCreate"><br>
+          <label for="passwordCreate">Password:</label><br>
+          <input type="password" id="passwordCreate"><br>
+        </form>
       </div>
 
       <div class="modal-footer">

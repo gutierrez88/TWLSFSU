@@ -35,6 +35,12 @@ input::placeholder {
     border-color: white;
 }
 
+.regBox input {
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+}
+
 #login {
     background-color: #CEB888;
     color: white;
@@ -54,10 +60,6 @@ input::placeholder {
 
 #modal1 {
     background-color: #782F40;
-}
-
-.modal-content {
-    color: white;
 }
 
 .modal-footer {
