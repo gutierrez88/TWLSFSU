@@ -36,9 +36,15 @@ input::placeholder {
 }
 
 .regBox input {
-    border-radius: 10px;
-    border-color: white;
     color: white;
+}
+
+#bidId {
+    color: #782F40;
+}
+
+#bidAmount {
+    border-color:#782F40;
 }
 
 #login {
